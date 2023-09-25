@@ -1,0 +1,38 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*navbar*/
+.logo-codo {
+  width: 20%;
+}
+
+/*HOME*/
+.background-image {
+  background-image: url("./imagenes/hawaii.jpg");
+  background-size: cover;
+  height: 100vh;
+  background-position: center;
+}
+.overlay {
+  background: #00000080;
+  height: 100%;
+
+
+}
+.info-home {
+    margin-left: 40vw;
+   
+}
+.content {
+    margin-top: 30vh;
+}
+/*CARDS*/
+.card {
+  margin: 0 2em;
+}
+/*SECCIONES*/
+.texto-subrayado {
+  border-bottom: 1px dotted
+}
