@@ -86,7 +86,7 @@
       </div>
     </header>
 
-    <div class="container body-compra w-50">
+    <div class="container body-compra w-60">
       <main class="container cards mt-5">
         <div class="cards-group d-flex justify-content-center flex-wrap">
           <div
@@ -127,7 +127,7 @@
         </div>
       </main>
 
-      <main class="container mx-auto">
+      <main class="container mx-auto container-form">
         <div class="texto">
           <p class="text-center">VENTA</p>
           <h2 class="text-center">VALOR DEL TICKET $200</h2>
@@ -169,7 +169,7 @@
             >
             <input
               type="number"
-              class="form-control"
+              class="form-control input-cantidad"
               aria-label="Cantiidad"
               placeholder="cantidad"
             />
@@ -179,7 +179,7 @@
             <label for="exampleFormControlInput1" class="form-label"
               >Categoria</label
             >
-            <select class="form-select" aria-label="Default select example">
+            <select id="seleccion" class="form-select" aria-label="Default select example">
               <option selected value="1">Estudiante</option>
               <option value="2">Trainee</option>
               <option value="3">Junior</option>
@@ -188,16 +188,16 @@
         </div>
 
         <div class="col p-1 mt-4">
-          <p class="border-primary rounded bg-primary-subtle text-primary p-3">
+          <p class="total-pago border-primary rounded bg-primary-subtle text-primary p-3">
             Total a Pagar: $
           </p>
         </div>
-        <div class="col p-1 my-3 d-flex justify-content-between">
+        <div class="col p-1 my-3 d-flex justify-content-between contenedor-btns">
 
-          <button type="button" class="btn text-light btn-compra py-2" style="background-color: rgb(109, 196, 38)">
+          <button type="button" class="btn btn-compra borrar py-2">
             Borrar
           </button>
-          <button type="button" class="btn text-light btn-compra" style="background-color: rgb(109, 196, 38)">
+          <button type="button" class="btn btn-compra resumen py-2">
             Resumen
           </button>
         </div>
@@ -206,16 +206,16 @@
 
     <footer class="mt-5 footer">
       <div class="row text-light justify-content-evenly aling-items-center">
-        <p class="col-md-auto p-3">
+        <p class="col-md-auto p-3 p-sm-2">
           Preguntas <br />
           frecuentes
         </p>
-        <p class="col-md-auto p-3">Contáctanos</p>
-        <p class="col-md-auto p-3">Prensa</p>
-        <p class="col-md-auto p-3">Conferencias</p>
-        <p class="col-md-auto p-3">Términos y <br />condiciones</p>
-        <p class="col-md-auto p-3">Privacidad</p>
-        <p class="col-md-auto p-3">Estudiantes</p>
+        <p class="col-md-auto p-3 p-sm-1">Contáctanos</p>
+        <p class="col-md-auto p-3 p-sm-1">Prensa</p>
+        <p class="col-md-auto p-3 p-sm-1">Conferencias</p>
+        <p class="col-md-auto p-3 p-sm-1">Términos y <br />condiciones</p>
+        <p class="col-md-auto p-3 p-sm-1">Privacidad</p>
+        <p class="col-md-auto p-3 p-sm-1">Estudiantes</p>
       </div>
     </footer>
     <script
@@ -228,5 +228,6 @@
       integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
       crossorigin="anonymous"
     ></script>
+    <script src="./main.js"></script>
   </body>
 </html>

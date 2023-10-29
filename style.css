@@ -17,7 +17,7 @@
   height: 110vh;
 }
 .header .tu-elemento {
-  margin-top: 5%;
+  margin-top: 15%;
   padding: 4em;
 }
 
@@ -38,10 +38,20 @@
 }
 
 /* PAGES */
-.btn-compra {
+.contenedor-btns .btn-compra {
   width: 49%;
   padding-top: 2.5em;
   padding-bottom: 2.5em;
+  background-color: rgb(109, 196, 38);
+  color: #fff;
+}
+.contenedor-btns .btn-compra:hover {
+  background-color: green;
+  color: #fff;
+  font-size: 1.1rem;
+}
+.body-compra .container-form{
+  width: 70%;
 }
 @media (max-width: 992px){  
   .header .tu-elemento {
@@ -51,7 +61,9 @@
   .header .texto-header {
     width:80%;
   }
-
+  .body-compra .container-form{
+    width: 100%;
+  }
 @media (max-width: 768px){  
   .header .tu-elemento {
     padding: 0.2em;
