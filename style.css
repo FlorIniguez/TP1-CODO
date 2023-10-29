@@ -14,10 +14,10 @@
   background-size: cover;
   background-position: center;
   color: #fff;
-  height: 100vh;
+  height: 110vh;
 }
 .header .tu-elemento {
-  margin-top: 10%;
+  margin-top: 5%;
   padding: 4em;
 }
 
@@ -37,24 +37,46 @@
   background: linear-gradient(90deg, rgba(1,67,92,1) 0%, rgba(1,67,92,1) 35%, rgba(3,106,128,1) 100%);
 }
 
+/* PAGES */
+.btn-compra {
+  width: 49%;
+  padding-top: 2.5em;
+  padding-bottom: 2.5em;
+}
+@media (max-width: 992px){  
+  .header .tu-elemento {
+    margin-top: 2%;
+    padding: 1em;
+  }
+  .header .texto-header {
+    width:80%;
+  }
+
 @media (max-width: 768px){  
   .header .tu-elemento {
-    margin-top: 15%;
-    padding: 2em;
+    padding: 0.2em;
   }
-  
+  .header {
+    font-size: 0.9rem;
+  }
 }
+}
+
 @media (max-width: 430px){  
   .header .tu-elemento {
     margin-top: 2%;
     padding: 0.2em;
   }
-  
+  .header {
+    font-size: 0.8rem;
+  }
 }
 @media (max-width: 320px){  
   .header .tu-elemento {
     margin-top: 0;
     padding: 0.2em;
   }
-  
+  .header {
+    font-size: 0.5rem;
+  }
 }
