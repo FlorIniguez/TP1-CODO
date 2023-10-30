@@ -53,6 +53,7 @@
 .body-compra .container-form{
   width: 70%;
 }
+/* MEIDAS QUERIES*/
 @media (max-width: 992px){  
   .header .tu-elemento {
     margin-top: 2%;
