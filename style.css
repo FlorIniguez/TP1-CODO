@@ -56,7 +56,7 @@
 /* MEIDAS QUERIES*/
 @media (max-width: 992px){  
   .header .tu-elemento {
-    margin-top: 2%;
+    margin-top: 15%;
     padding: 1em;
   }
   .header .texto-header {
@@ -65,8 +65,10 @@
   .body-compra .container-form{
     width: 100%;
   }
+
 @media (max-width: 768px){  
   .header .tu-elemento {
+    margin-top: 20%;
     padding: 0.2em;
   }
   .header {
@@ -76,8 +78,11 @@
 }
 
 @media (max-width: 430px){  
+  .header {
+    height: 85vh;
+  }
   .header .tu-elemento {
-    margin-top: 10%;
+    margin-top: 25%;
     padding: 0.2em;
   }
   .header {
@@ -86,10 +91,13 @@
 }
 @media (max-width: 320px){  
   .header .tu-elemento {
-    margin-top: 0;
-    padding: 0.2em;
+    margin-top: 30%;
+    
   }
   .header {
     font-size: 0.5rem;
+    height: 80vh;
   }
+  .logo-codo {
+    width: 5rem;  }
 }
